@@ -11,7 +11,7 @@ then
 	echo 'GitHub repository created.'
 	if [ -d .git ]
 	then
-		git remote add github 'https://github.com/JoahG/'$2'.git'
+		git remote add github 'https://github.com/$GH_USERNAME/'$2'.git'
 		echo 'GitHub remote added.'
 	fi
 fi

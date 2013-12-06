@@ -4,7 +4,7 @@ Bash shell script to enable command line GitHub interaction.
 
 ---
 
-To use, replace `$GH_AUTH_TOKEN` with your private GitHub api token, and place the script in your path.
+To use, replace `$GH_AUTH_TOKEN` with your private GitHub api token and `$GH_USERNAME` with your GitHub username, and place the script in your path.
 
 Current commands (preceded by `gh` or filename of choice):
 
