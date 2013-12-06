@@ -4,7 +4,7 @@ if [ \( "$1" == "create" \) ]
 then
 	if [ \( $# != 2 \) ]
 	then
-		echo "Usage: hub create <repo name>"
+		echo "Usage: gh create <repo name>"
 		exit 1
 	fi
 	curl -XPOST -H 'Authorization: token $GH_AUTH_TOKEN' https://api.github.com/user/repos -d '{"name":"'$2'"}' --silent >/dev/null
