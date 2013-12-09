@@ -21,3 +21,5 @@ For easy installation, use the following command:
 ```
 	curl https://raw.github.com/JoahG/gh.sh/master/gh.sh >> /usr/local/bin/gh && chmod a+x /usr/local/bin/gh
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/JoahG/gh.sh/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
